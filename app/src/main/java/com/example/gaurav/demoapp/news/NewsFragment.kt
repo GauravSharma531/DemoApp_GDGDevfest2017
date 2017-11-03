@@ -45,7 +45,7 @@ class NewsFragment : Fragment() ,NewsDelegateAdapter.onViewSelectedListener {
 
         if (savedInstanceState == null) {
             val news = mutableListOf<RedditNewsItem>()
-            for (i in 1..10) {
+            for (i in 1..30) {
                 news.add(RedditNewsItem(
                         "author$i",
                         "Title $i",
