@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">DemoApp</string>
+    <string name="counter">Click Me</string>
 </resources>
